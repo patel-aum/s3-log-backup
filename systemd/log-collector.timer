@@ -1,0 +1,9 @@
+[Unit]
+Description=Run Docker Log Collector Hourly
+
+[Timer]
+OnCalendar=hourly
+
+[Install]
+WantedBy=timers.target
+

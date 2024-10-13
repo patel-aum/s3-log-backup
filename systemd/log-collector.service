@@ -1,0 +1,8 @@
+
+#/etc/systemd/system/log-collector.service
+
+[Unit]
+Description=Docker Container Log Collector
+
+[Service]
+ExecStart=/docker-logs-backup.sh
